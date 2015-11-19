@@ -1,7 +1,7 @@
 <div style="text-align:center">
 
 <img id="img_box" style="width: 200px;max-height: 200px;cursor: pointer;background:#99FF33"
-     src=""/>
+     src="<%=asset_path(session[:image])%>"/>
 
 <%= form_tag("image/create", method: "post",
   :id => "uploadForm", :enctype => "multipart/form-data" ) do %>
@@ -13,9 +13,9 @@
 
 <table>
     <tr>
-        <td><%= image_tag() %></td>
-        <td><img src="" alt=""/></td>
-        <td><img src="" alt=""/></td>
+        <td><%= image_tag("2-#{session[:image]}") %></td>
+        <td><%= image_tag("4-#{session[:image]}") %></td>
+        <td><%= image_tag("6-#{session[:image]}") %></td>
     </tr>
 </table>
 
