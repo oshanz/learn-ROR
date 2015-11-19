@@ -47,3 +47,4 @@ end
 
 gem 'ruby-vips'
 gem 'carrierwave'
+gem 'delayed_job_active_record'
