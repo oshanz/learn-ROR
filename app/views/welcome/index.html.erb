@@ -1,20 +1,21 @@
 <div style="text-align:center">
 
-<img id="img_box" style="width: 200px;max-height: 200px;cursor: pointer;background:skyblue"
+<img id="img_box" style="width: 200px;max-height: 200px;cursor: pointer;background:#99FF33"
      src=""/>
 
-<form action="image" method="post" enctype="multipart/form-data" id="uploadForm" style="display: none">
-  <input type="file" name="image">
-</form>
+<%= form_tag("image/create", method: "post",
+  :id => "uploadForm", :enctype => "multipart/form-data" ) do %>
+  <input type="file" name="image" style="display:none">
+<% end %>
 
 <br>
 <br>
 
 <table>
     <tr>
-        <td><img src=""/></td>
-        <td><img src=""/></td>
-        <td><img src=""/></td>
+        <td><img src="" alt=""/></td>
+        <td><img src="" alt=""/></td>
+        <td><img src="" alt=""/></td>
     </tr>
 </table>
 
