@@ -30,4 +30,27 @@ delayed_job.0: trying to stop process with pid 25270...
 delayed_job.0: process with pid 25270 successfully stopped.
 delayed_job.1: trying to stop process with pid 25276...
 delayed_job.1: process with pid 25276 successfully stopped.
-]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ rake jobe[K[Kbin/delayed_job -n 2 stopartRAILS_ENV=production bin/delayed_job -n 2 stopart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pchmod go-w /usr/lo
+]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ rake jobe[K[Kbin/delayed_job -n 2 stopartRAILS_ENV=production bin/delayed_job -n 2 stopart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pchmod go-w /usr/local/home/trisquelruby -v[Ksynaptic[1Pruby -vsynapticphp artisan route:list[3Psudo chmod -R 777 .php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravel5"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[52P./composer.phar require ramsey/uuidintervention/image ~[K[1P~.~/composer.phar require intervention/image [8Pramsey/uuidphp artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravel5"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chmod -R 777 .[Kphp artisan route:list[14Psynaptic[1Pruby -vchmod go-w /home/trisquel[3Pusr/local/[KRAILS_ENV=production bin/delayed_job -n 2 start[1Pop[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pbin/delayed_job -n 2 start[1Poprake jo[Kbin/delayed_job -n 2 stopart[1Poprake jo[Kb:n[K[K[K[K[Kmake:job
+/home/trisquel/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.10.6/lib/bundler/shared_helpers.rb:78: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+rake aborted!
+Don't know how to build task 'make:job'
+
+(See full trace by running task with --trace)
+]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ git add .
+]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ git commit -m ''t'h'e'r'e' 'i's' 'a' 'd'e'l'a'y'
+[master a4673ce] there is a delay
+ 5 files changed, 39 insertions(+), 3 deletions(-)
+ create mode 100644 public/uploads/9ptmco.jpg
+ create mode 100644 typescript
+]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ git commit -m 'there is a delay'add .[Krake make:job
+/home/trisquel/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.10.6/lib/bundler/shared_helpers.rb:78: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+rake aborted!
+Don't know how to build task 'make:job'
+
+(See full trace by running task with --trace)
+]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ rake make:jobgit commit -m 'there is a delay'add .[Krake make:jobbin/delayed_job -n 2 stopartRAILS_ENV=production bin/delayed_job -n 2 stopart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pchmod go-w /usr/local/home/trisquelruby -v[Kchmod go-w /home/trisquel[3Pusr/local/[KRAILS_ENV=production bin/delayed_job -n 2 start[1Pop[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pbin/delayed_job -n 2 start[1Pop[12Prake make:job[4Pgit add .commit -m 'there is a delay'[19Prake make:job[Krake make:job[Kbin/delayed_job -n 2 start
+/home/trisquel/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.10.6/lib/bundler/shared_helpers.rb:78: warning: Insecure world writable dir /usr/local in PATH, mode 040777
+delayed_job.0: process with pid 28563 started.
+delayed_job.1: process with pid 28569 started.
+]0;trisquel@oshan-trisquel: ~/ROR/Assignmenttrisquel@oshan-trisquel:~/ROR/Assignment$ git status
+On branc

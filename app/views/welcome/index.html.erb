@@ -26,6 +26,17 @@
     $('[name="image"]').change(function () {
         $('#uploadForm').submit();
     });
+    /*
+    var url = $('#img_box').attr('src');
+    var lastImg="<%= session[:image] %>";
+    if(lastImg && url){
+      $.ajax({url: url}).error(function(){
+        setTimeout(function () {
+          window.location.reload();
+        }, 5);
+      });
+    }
+    */
 </script>
 
 </dev>

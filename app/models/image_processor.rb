@@ -4,6 +4,7 @@ include VIPS
 
 class ImageProcessor
 
+  # yep this can be sepearte to 3 jobs
   def processImg(current_path,filename)
     Image.new(current_path).write("app/assets/images/#{filename}")
     Image.new(current_path)
